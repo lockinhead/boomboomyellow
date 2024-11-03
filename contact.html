@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="css/contact.css" as="style">
+    <link rel="preload" href="data/form-config.json" as="fetch" crossorigin>
+    <link rel="preconnect" href="https://script.google.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact BoomBoomYellow</title>
+    <meta name="description" content="Get in touch with BoomBoomYellow. Share your ideas or questions. Explore opportunities with BoomBoomYellow ready-to-cook chicken. We will be in touch by email.">
+    <link rel="canonical" href="https://www.boomboomyellow.com/contact">
+    <meta property="og:title" content="Contact BoomBoomYellow">
+    <meta property="og:description" content="Get in touch with BoomBoomYellow. Explore opportunities with BoomBoomYellow ready-to-cook chicken.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.boomboomyellow.com/contact">
+    <meta property="og:site_name" content="BoomBoomYellow">
+    <meta property="og:locale" content="en_MY">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Contact BoomBoomYellow">
+    <meta name="twitter:description" content="Get in touch with BoomBoomYellow. Explore opportunities with BoomBoomYellow ready-to-cook chicken.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.boomboomyellow.com/contact"
+      },
+      "name": "Contact BoomBoomYellow",
+      "description": "Get in touch with BoomBoomYellow. Share your ideas or questions. Explore opportunities with BoomBoomYellow ready-to-cook chicken. We will be in touch by email.",
+      "url": "https://www.boomboomyellow.com/contact",
+      
+      "keywords": [
+        "contact boomboomyellow",
+        "chicken supplier contact",
+        "business inquiry",
+        "wholesale chicken contact"
+      ]
+    }
+    </script>
+</head>
+<body id="contact">
+  <div id="header-include" role="banner" aria-label="Site header"></div>
+    <main id="main" class="contact">
+        <div class="contact__container">
+            <h1 class="contact__title">Hello.</h1>
+            <p class="contact__description">Let us get to know you better. Share your ideas or questions.<br>
+We'll be in touch by email to discuss what's right for you.</p>
+            <div class="contact__options" role="group" aria-label="Select contact form type">
+              <button class="contact__option-button contact__option-button--active"
+                      data-form="business"
+                      aria-pressed="true"
+                      aria-label="Switch to business contact form">Business</button>
+              <button class="contact__option-button"
+                      data-form="consumer"
+                      aria-pressed="false"
+                      aria-label="Switch to consumer contact form">Consumer</button>
+              <button class="contact__option-button"
+                      data-form="government"
+                      aria-pressed="false"
+                      aria-label="Switch to government contact form">Government</button>
+            </div>
+            <div id="form-status" role="status" aria-live="polite"></div>
+            <form id="contact-form"
+                  class="contact__form"
+                  data-form-type="business"
+                  data-endpoint="YOUR_ENDPOINT"
+                  aria-label="Contact form"
+                  novalidate>
+                <div id="dynamic-form-fields" class="contact__form-fields"></div>
+                <button type="submit" class="contact__submit-button">Send</button>
+                <input type="text" name="honeypot" id="honeypot" style="display:none">
+            </form>
+        </div>
+    </main>
+    <div id="footer-include" role="contentinfo" aria-label="Site footer"></div>
+    <script src="js/header-loader.js" defer></script>
+    <script src="js/footer-loader.js" defer></script>
+    <script src="js/contact-form.js" defer></script>
+</body>
+</html>

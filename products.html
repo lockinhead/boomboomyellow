@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="css/products.css" as="style">
+    <link rel="preload" href="data/productData.json" as="fetch" crossorigin>
+    <link rel="prefetch" href="product-details.html">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/products.css">
+    <title>BoomBoomYellow Chicken</title>
+    <meta name="description" content="Explore BoomBoomYellow ready-to-cook chicken. Enjoy free shipping.">
+    <link rel="canonical" href="https://www.boomboomyellow.com/products">
+    <meta property="og:title" content="BoomBoomYellow Chicken">
+    <meta property="og:description" content="Explore BoomBoomYellow ready-to-cook chicken. Enjoy free shipping.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.boomboomyellow.com/products">
+    <meta property="og:site_name" content="BoomBoomYellow">
+    <meta property="og:locale" content="en_MY">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="BoomBoomYellow Chicken">
+    <meta name="twitter:description" content="Explore BoomBoomYellow ready-to-cook chicken. Enjoy free shipping.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.boomboomyellow.com/products"
+      }
+    }
+    </script>
+</head>
+<body id="products">
+    <div id="header-include" role="banner" aria-label="Site header"></div>
+    <main id="main" class="products">
+        <div class="products__container">
+            <h1 class="visually-hidden">BoomBoomYellow Chicken</h1>
+            <div class="products__grid"
+                 role="region"
+                 aria-label="Product listings"
+                 aria-live="polite">
+            </div>
+        </div>
+    </main>
+    <div id="footer-include" role="contentinfo" aria-label="Site footer"></div>
+    <script src="js/header-loader.js" defer></script>
+    <script src="js/footer-loader.js" defer></script>
+    <script src="js/products.js" defer></script>
+</body>
+</html>

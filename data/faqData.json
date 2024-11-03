@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Order",
+    "subtopics": [
+      {
+        "title": "How do I place an order?",
+        "answer": "Getting started is easy. Reach out to us by visiting our <a href='contact.html'>Contact</a> page. Need more help placing your order? Feel free to chat with us on <a href='https://wa.me/60134611111'>WhatsApp (+60 13 461 1111)</a> or send an email to <a href='mailto:hello@boomboomyellow.com'>hello@boomboomyellow.com</a>."
+      }
+    ]
+  },
+  {
+    "title": "Delivery",
+    "subtopics": [
+      {
+        "title": "How long does delivery take?",
+        "answer": "We aim to deliver all orders within three (3) days from the time of order confirmation."
+      },
+      {
+        "title": "Are there any shipping fees?",
+        "answer": "All orders come with free delivery, no hidden costs or surprises."
+      }
+    ]
+  },
+  {
+    "title": "Payment",
+    "subtopics": [
+      {
+        "title": "What are the payment terms?",
+        "answer": "We primarily operate on a cash-before-delivery basis, ensuring smooth and timely transactions. For select partners, we may offer up to 30-day payment terms based on agreement. All payments are processed through our designated bank account in Malaysia."
+      }
+    ]
+  },
+  {
+    "title": "Products",
+    "subtopics": [
+      {
+        "title": "What products do you offer?",
+        "answer": "We currently offer <a href='products/uncooked-free-range-whole-chicken.html'>Uncooked Free-Range Whole Chicken</a> and <a href='products/uncooked-free-range-whole-chicken-without-neck.html'>Uncooked Free-Range Whole Chicken without Neck</a>. For more details, visit our <a href='products.html'>Products</a> page."
+      },
+      {
+        "title": "What are your product standards?",
+        "answer": "We adhere to strict guidelines, including certifications such as <a href='https://example.com/halal-certification.pdf'>Halal</a> and <a href='https://example.com/myOrganic-certification.pdf'>myOrganic</a>, to ensure our products meet regulatory and ethical requirements. Detailed information about 'Our Standards' is available as you browse each product."
+      }
+    ]
+  },
+  {
+    "title": "Refund",
+    "subtopics": [
+      {
+        "title": "What are your refund terms?",
+        "answer": "We believe you'll be pleased with the care and attention we put into preparing our ready-to-cook chicken products. Every order is carefully handled to ensure it meets the highest standards of freshness and safety. However, we understand that sometimes things don't go as expected, and in the rare case there's an issue with your order, we want to make it right.\n\nYou may contact us for review under the following conditions:\n\nYou receive a different product than what you ordered (e.g., Uncooked Free-Range Whole Chicken instead of Uncooked Free-Range Whole Chicken without Neck, or vice versa); or\n\nThe total net weight of your order deviates by more than 5% from the weight confirmed at purchase (e.g., a deviation of more than 500 grams for a 10.00-kilogram order).\n\nIf the weight discrepancy qualifies, refunds will be calculated based on the exact shortfall, rounded to the nearest 10 grams (e.g., a 555-gram shortfall will be refunded as 560 grams or 0.56 kilograms). If a refund is issued, it will be processed to your original payment method within fourteen (14) business days.\n\nSimply reach out to us within 24 hours of receiving your delivery. We may request details or photos to assess the situation and determine whether a refund or replacement is appropriate.\n\nWe're here to help, and while refunds may not be common due to the nature of our business, we're committed to finding a fair solution should any issues arise."
+      }
+    ]
+  }
+]

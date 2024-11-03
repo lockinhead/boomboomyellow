@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Uncooked Free-Range Whole Chicken",
+    "description": "",
+    "packaging": "",
+    "delivery": "",
+    "images": [
+        "assets/images/uncooked-free-range-whole-chicken.webp",
+        "assets/images/uncooked-free-range-whole-chicken-without-neck.webp"
+    ],
+    "variations": [
+      "1.10 kg",
+      "1.30 kg"
+    ],
+    "minOrderQuantity": [
+      "11.00 kg"
+    ],
+    "certifications": [
+      { "name": "myOrganic (PDF)", "url": "https://example.com/myOrganic-certification.pdf" }
+    ],
+    "reports": [
+      { "name": "Antibiotic-free (PDF)", "pdf": "https://example.com/antibiotic-free-report.pdf" },
+      { "name": "Hormone-free (PDF)", "pdf": "https://example.com/hormone-free-report.pdf" }
+    ],
+    "ingredients": [
+      "Free-Range Whole Chicken without giblets."
+    ],
+    "packagingInfo": [
+      "?"
+    ],
+    "storage": [
+      "Store at -18 °C or below."
+    ],
+    "preparation": [
+      "Place unopened package in refrigerator at 5 °C until defrosted; never defrost at room temperature. Cook within 1 to 2 days after defrosting and do not refreeze. Cook thoroughly to an internal temperature of 75 °C."
+    ],
+    "nutritionInfo": {
+      "servingSize": "? g",
+      "servingsPerContainer": "?",
+      "nutritionFacts": [
+        { "name": "Energy", "per100g": "?", "perServing": "?" },
+        { "name": "Protein", "per100g": "?", "perServing": "?" },
+        { "name": "Fat", "per100g": "?", "perServing": "?" },
+        { "name": "Total Sugars", "per100g": "?", "perServing": "?" },
+        { "name": "Sodium", "per100g": "?", "perServing": "?" }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Uncooked Free-Range Whole Chicken without Neck",
+    "description": "",
+    "packaging": "",
+    "delivery": "",
+    "images": [
+        "assets/images/uncooked-free-range-whole-chicken-without-neck.webp"
+    ],
+    "variations": [
+      "1.10 kg",
+      "1.30 kg"
+    ],
+    "minOrderQuantity": [
+      "11.00 kg"
+    ],
+    "certifications": [
+      "myOrganic"
+    ],
+    "reports": [
+      "Antibiotic-free",
+      "Hormone-free",
+      "Pathogen-free"
+    ],
+    "ingredients": [
+      "Free-Range Whole Chicken without neck and giblets."
+    ],
+    "packagingInfo": [
+      "?"
+    ],
+    "storage": [
+      "Store at -18 °C or below."
+    ],
+    "preparation": [
+      "Place unopened package in refrigerator at 5 °C until defrosted; never defrost at room temperature. Cook within 1 to 2 days after defrosting and do not refreeze. Cook thoroughly to an internal temperature of 75 °C."
+    ],
+    "nutritionInfo": {
+      "servingSize": "? g",
+      "servingsPerContainer": "?",
+      "nutritionFacts": [
+        { "name": "Energy", "per100g": "?", "perServing": "?" },
+        { "name": "Protein", "per100g": "?", "perServing": "?" },
+        { "name": "Fat", "per100g": "?", "perServing": "?" },
+        { "name": "Total Sugars", "per100g": "?", "perServing": "?" },
+        { "name": "Sodium", "per100g": "?", "perServing": "?" }
+      ]
+    }
+  }
+]

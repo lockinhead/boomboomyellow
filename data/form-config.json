@@ -1,0 +1,19 @@
+{
+    "business": [
+      { "name": "full-name", "label": "Full Name", "type": "text", "required": true, "minLength": 1, "maxLength": 100, "pattern": "^[a-zA-Z0-9\\s'-.,]+$" },
+      { "name": "business-name", "label": "Business Name", "type": "text", "required": true, "minLength": 1, "maxLength": 100 },
+      { "name": "email", "label": "Email Address", "type": "email", "required": true, "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$" },
+      { "name": "phone", "label": "Phone Number", "type": "tel", "required": false, "pattern": "^(\\+?6?01[0-46-9]-?[0-9]{7,8}|0[0-9]{1,2}-?[0-9]{7})$" }
+    ],
+    "consumer": [
+      { "name": "full-name", "label": "Full Name", "type": "text", "required": true, "minLength": 1, "maxLength": 100, "pattern": "^[a-zA-Z0-9\\s'-.,]+$" },
+      { "name": "email", "label": "Email Address", "type": "email", "required": true, "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$" },
+      { "name": "phone", "label": "Phone Number", "type": "tel", "required": true, "pattern": "^(\\+?6?01[0-46-9]-?[0-9]{7,8}|0[0-9]{1,2}-?[0-9]{7})$" }
+    ],
+    "government": [
+      { "name": "full-name", "label": "Full Name", "type": "text", "required": true, "minLength": 1, "maxLength": 100, "pattern": "^[a-zA-Z0-9\\s'-.,]+$" },
+      { "name": "government-entity", "label": "Government Entity Name", "type": "text", "required": true, "minLength": 1, "maxLength": 100 },
+      { "name": "email", "label": "Email Address", "type": "email", "required": true, "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$" },
+      { "name": "phone", "label": "Phone Number", "type": "tel", "required": false, "pattern": "^(\\+?6?01[0-46-9]-?[0-9]{7,8}|0[0-9]{1,2}-?[0-9]{7})$" }
+    ]
+  }

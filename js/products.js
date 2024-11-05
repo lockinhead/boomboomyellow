@@ -2,15 +2,16 @@ const productGrid=document.querySelector(".products__grid");function setLoadingS
     <div class="products__loading" role="status">
         <span class="visually-hidden">Loading products, please wait...</span>
         <div aria-hidden="true">Loading products...</div>
-    </div>`)}function createProductItem(t){let{id:r,name:e,images:a,variations:o,description:i}=t,d=a[0]||"",n=o.length>0?`Available in ${o.length>1?o.slice(0,-1).join(", ")+(o.length>2?",":"")+" and "+o.slice(-1):o[0]}.*`:"";return`
+    </div>
+`)}function createProductItem(t){let{id:r,name:e,images:a,variations:o,description:i}=t,d;return`
 <article class="products__item" itemscope itemtype="https://schema.org/Product">
-    <a href="product-details.html?id=${r}" 
+    <a href="/products/${t.slug}" 
        class="products__link"
        aria-labelledby="product-name-${r}"
        aria-describedby="product-variations-${r}">
         <div class="products__image-wrapper">
             <img class="products__image" 
-                 src="${d}" 
+                 src="${a[0]||""}" 
                  alt="${e}"
                  itemprop="image"
                  loading="lazy"
@@ -20,7 +21,7 @@ const productGrid=document.querySelector(".products__grid");function setLoadingS
             <div class="products__details">
                 <h2 class="products__name" id="product-name-${r}" itemprop="name">${e}</h2>
                 <p class="products__variations" id="product-variations-${r}" itemprop="description">
-                    ${n}
+                    ${o.length>0?`Available in ${o.length>1?o.slice(0,-1).join(", ")+(o.length>2?",":"")+" and "+o.slice(-1):o[0]}.*`:""}
                     <meta itemprop="brand" content="BoomBoomYellow">
                     <meta itemprop="category" content="Free-Range Chicken">
                 </p>

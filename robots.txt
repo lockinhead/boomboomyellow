@@ -1,0 +1,18 @@
+# robots.txt for https://www.boomboomyellow.com
+
+User-agent: *
+
+Allow: /
+Allow: /about
+Allow: /products
+Allow: /product-details
+Allow: /help
+Allow: /contact
+
+Disallow: /assets/admin/
+Disallow: /data/
+Disallow: /components/
+Disallow: /js/
+Disallow: /css/
+
+Sitemap: https://www.boomboomyellow.com/sitemap.xml

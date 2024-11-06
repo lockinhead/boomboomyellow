@@ -5,5 +5,12 @@
           "source": "/products/:slug",
           "destination": "/product-details.html"
       }
+  ],
+  "redirects": [
+      {
+          "source": "/products/404",
+          "destination": "/products",
+          "permanent": false
+      }
   ]
 }

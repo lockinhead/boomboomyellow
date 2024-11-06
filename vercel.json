@@ -3,7 +3,7 @@
   "rewrites": [
       {
           "source": "/products/:slug",
-          "destination": "/product-details.html"
+          "destination": "/product-details"
       }
   ],
   "redirects": [
@@ -11,6 +11,17 @@
           "source": "/products/404",
           "destination": "/products",
           "permanent": false
+      }
+  ],
+  "headers": [
+      {
+          "source": "/data/(.*)",
+          "headers": [
+              {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+              }
+          ]
       }
   ]
 }

@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded",function(){let e=document.querySelectorAll(".contact__option-button"),t=document.getElementById("dynamic-form-fields"),a=document.getElementById("contact-form"),n="business";function i(e){fetch("data/form-config.json").then(e=>e.json()).then(a=>{let n=a[e],i="";n.forEach(t=>{let a=`${e}-${t.name}`;i+=`
+document.addEventListener("DOMContentLoaded",function(){let e=document.querySelectorAll(".contact__option-button"),t=document.getElementById("dynamic-form-fields"),a=document.getElementById("contact-form"),n="business";function i(e){fetch("/data/form-config.json").then(e=>e.json()).then(a=>{let n=a[e],i="";n.forEach(t=>{let a=`${e}-${t.name}`;i+=`
     <div class="contact__form-group${t.fullWidth?" contact__form-group--full-width":""}">
         <input class="contact__form-input" 
             type="${t.type}" 
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded",function(){let e=document.querySele
 We will email you soon 💌.
 </p>
 <button class="contact__new-message-button" 
-onclick="window.location.href='index.html'">
+onclick="window.location.href='/'">
 Back to home
 </button>
 </div>

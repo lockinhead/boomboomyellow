@@ -4,7 +4,7 @@
     "subtopics": [
       {
         "title": "How do I place an order?",
-        "answer": "Getting started is easy. Reach out to us by visiting our <a href='contact.html'>Contact</a> page. Need more help placing your order? Feel free to chat with us on <a href='https://wa.me/60134611111'>WhatsApp (+60 13 461 1111)</a> or send an email to <a href='mailto:hello@boomboomyellow.com'>hello@boomboomyellow.com</a>."
+        "answer": "Getting started is easy. Reach out to us by visiting our <a href='/contact'>Contact</a> page. Need more help placing your order? Feel free to chat with us on <a href='https://wa.me/60134611111'>WhatsApp (+60 13 461 1111)</a> or send an email to <a href='mailto:hello@boomboomyellow.com'>hello@boomboomyellow.com</a>."
       }
     ]
   },
@@ -35,11 +35,11 @@
     "subtopics": [
       {
         "title": "What products do you offer?",
-        "answer": "We currently offer <a href='products/uncooked-free-range-whole-chicken.html'>Uncooked Free-Range Whole Chicken</a> and <a href='products/uncooked-free-range-whole-chicken-without-neck.html'>Uncooked Free-Range Whole Chicken without Neck</a>. For more details, visit our <a href='products.html'>Products</a> page."
+        "answer": "We currently offer <a href='/products/uncooked-free-range-whole-chicken'>Uncooked Free-Range Whole Chicken</a> and <a href='/products/uncooked-free-range-whole-chicken-without-neck'>Uncooked Free-Range Whole Chicken without Neck</a>. For more details, visit our <a href='/products'>Products</a> page."
       },
       {
         "title": "What are your product standards?",
-        "answer": "We adhere to strict guidelines, including certifications such as Halal and myOrganic, to ensure our products meet regulatory and ethical requirements. Detailed information about 'Our Standards' is available as you browse each product."
+        "answer": "We adhere to strict guidelines, including certifications such as <a href='https://example.com/halal-certification.pdf'>Halal</a> and <a href='https://example.com/myOrganic-certification.pdf'>myOrganic</a>, to ensure our products meet regulatory and ethical requirements. Detailed information about 'Our Standards' is available as you browse each product."
       }
     ]
   },

@@ -2,12 +2,13 @@
   {
     "id": 1,
     "name": "Uncooked Free-Range Whole Chicken",
+    "slug": "uncooked-free-range-whole-chicken",
     "description": "",
     "packaging": "",
     "delivery": "",
     "images": [
-        "assets/images/uncooked-free-range-whole-chicken.webp",
-        "assets/images/uncooked-free-range-whole-chicken-without-neck.webp"
+        "/assets/images/uncooked-free-range-whole-chicken.webp",
+        "/assets/images/uncooked-free-range-whole-chicken-without-neck.webp"
     ],
     "variations": [
       "1.10 kg",
@@ -50,11 +51,12 @@
   {
     "id": 2,
     "name": "Uncooked Free-Range Whole Chicken without Neck",
+    "slug": "uncooked-free-range-whole-chicken-without-neck",
     "description": "",
     "packaging": "",
     "delivery": "",
     "images": [
-        "assets/images/uncooked-free-range-whole-chicken-without-neck.webp"
+        "/assets/images/uncooked-free-range-whole-chicken-without-neck.webp"
     ],
     "variations": [
       "1.10 kg",
